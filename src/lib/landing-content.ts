@@ -78,7 +78,7 @@ export const homeContent: Record<LanguageCode, HomeLandingContent> = {
       { value: "98%", label: "Visa success rate" },
       // { value: "1K+", label: "Students placed" },
       { value: "8", label: "Top cities" },
-      { value: "100+", label: "Partner universities" },
+      { value: "100+", label: "Language schools" },
       { value: "∞", label: "Post-visa support" },
     ],
     why: {
@@ -170,7 +170,7 @@ export const homeContent: Record<LanguageCode, HomeLandingContent> = {
       { value: "98%", label: "ビザ成功率" },
       // { value: "1K+", label: "進学実績" },
       { value: "8", label: "主要都市" },
-      { value: "100+", label: "提携大学" },
+      { value: "100+", label: "日本語学校" },
       { value: "∞", label: "渡航後支援" },
     ],
     why: {
@@ -248,7 +248,7 @@ export const homeContent: Record<LanguageCode, HomeLandingContent> = {
       { value: "98%", label: "भिसा सफलता दर" },
       // { value: "1K+", label: "विद्यार्थी पठाइएका" },
       { value: "8", label: "मुख्य सहरहरू" },
-      { value: "100+", label: "साझेदार विश्वविद्यालय" },
+      { value: "100+", label: "भाषा विद्यालय" },
       { value: "∞", label: "पोस्ट-भिसा सहयोग" },
     ],
     why: {
