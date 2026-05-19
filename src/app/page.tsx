@@ -132,7 +132,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
       </section>
 
       <section className="mx-auto w-full max-w-6xl px-6">
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-5">
+        <div className="grid justify-items-center gap-4 md:grid-cols-2 xl:grid-cols-4">
           {content.stats.map((stat) => (
             <Reveal key={stat.label}>
               <div className="rounded-3xl border border-[var(--border)] bg-white p-6 text-center shadow-[var(--shadow-card)]">

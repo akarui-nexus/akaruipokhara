@@ -25,7 +25,7 @@ export const navLinks = [
 
 export const stats = [
   { label: "Visa success rate", value: "98%" },
-  { label: "Students placed", value: "1K+" },
+  // { label: "Students placed", value: "1K+" },
   { label: "Top cities", value: "8" },
   { label: "Partner universities", value: "100+" },
   { label: "Post-visa support", value: "∞" },
