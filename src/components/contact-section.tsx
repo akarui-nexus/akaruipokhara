@@ -1,6 +1,5 @@
 import type { ReactNode } from "react";
 
-import Link from "next/link";
 import { ArrowRight, Clock3, Mail, MapPin, PhoneCall } from "lucide-react";
 
 import { SectionHeader } from "@/components/section-header";

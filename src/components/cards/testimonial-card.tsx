@@ -11,7 +11,7 @@ export function TestimonialCard({
 }: TestimonialCardProps) {
   return (
     <div className="flex h-full flex-col gap-4 rounded-3xl border border-[var(--border)] bg-white p-6 shadow-[var(--shadow-card)]">
-      <p className="text-sm text-[var(--brand-slate)]">"{quote}"</p>
+      <p className="text-sm text-[var(--brand-slate)]">&ldquo;{quote}&rdquo;</p>
       <div>
         <p className="text-base font-semibold text-[var(--brand-ink)]">
           {name}

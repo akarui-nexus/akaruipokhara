@@ -261,7 +261,7 @@ export const homeContent: Record<LanguageCode, HomeLandingContent> = {
         { title: "अनुभवी टोली", description: "जापानको शिक्षा प्रणाली र संस्कृति राम्रोसँग बुझेका काउन्सिलरहरूद्वारा परामर्श।" },
         { title: "उच्च सफलता दर", description: "उत्कृष्ट शैक्षिक वातावरण, उचित सेवा शुल्क र उच्च भिसा सफलता दर।" },
       ],
-    }
+    },
     services: {
       eyebrow: "हाम्रा सेवाहरू",
       title: "सबै कुरा एउटै ठाउँमा।",
