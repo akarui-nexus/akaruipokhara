@@ -22,7 +22,7 @@ export function Footer() {
           <div className="flex items-center gap-3">
             <Image
               src="/assets/gallery/LOGO/Akarui%20Logo.webp"
-              alt="Akarui Education Pokhara"
+              alt="AKARUI POKHARA !"
               width={54}
               height={54}
               className="h-12 w-12 rounded-lg object-contain"
@@ -65,7 +65,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-[var(--border)] py-6 text-center text-xs text-[var(--brand-slate)]">
-        (c) 2026 Akarui Education Pokhara. All rights reserved.
+        (c) 2026 AKARUI POKHARA !. All rights reserved.
       </div>
     </footer>
   );

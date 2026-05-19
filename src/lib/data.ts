@@ -432,7 +432,7 @@ export const faqs = [
       "We recommend starting 6 to 8 months before your intended intake to secure admissions and visas on time.",
   },
   {
-    question: "Does Akarui Education Pokhara help with scholarships?",
+    question: "Does AKARUI POKHARA ! help with scholarships?",
     answer:
       "Yes. We guide you through scholarship options and help craft strong applications.",
   },
@@ -559,7 +559,7 @@ export const highlights = [
 
 export const directorMessage = {
   name: "Founder & CEO",
-  title: "Director, Akarui Education Pokhara",
+  title: "Director, AKARUI POKHARA !",
   message:
     "At AKARUI!, we believe every student deserves a brighter future. We do not just process applications - we build futures through personalized guidance and unwavering support.",
 };

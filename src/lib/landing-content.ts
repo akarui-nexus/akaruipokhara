@@ -226,7 +226,7 @@ export const homeContent: Record<LanguageCode, HomeLandingContent> = {
       description: "ご来店、電話、またはフォームからご連絡ください。",
     },
     cta: {
-      eyebrow: "Akarui Education Pokhara をスタート",
+      eyebrow: "AKARUI POKHARA ! をスタート",
       title: "海外進学プランを一緒に作りませんか？",
       description: "ポカラのカウンセリングチームに無料相談をお申し込みください。",
       primaryAction: "相談予約",
@@ -304,7 +304,7 @@ export const homeContent: Record<LanguageCode, HomeLandingContent> = {
       description: "कार्यालयमा आउनुहोस्, फोन गर्नुहोस्, वा फर्म भर्नुहोस्।",
     },
     cta: {
-      eyebrow: "Akarui Education Pokhara बाट सुरु",
+      eyebrow: "AKARUI POKHARA ! बाट सुरु",
       title: "आफ्नो अन्तर्राष्ट्रिय शिक्षा योजना बनाउन तयार हुनुहुन्छ?",
       description: "पोखराको काउन्सिलिङ टिमसँग आजै निःशुल्क भेटघाट बुक गर्नुहोस्।",
       primaryAction: "परामर्श बुक गर्नुहोस्",

@@ -7,8 +7,8 @@ import { Navbar } from "@/components/navbar";
 
 export const metadata: Metadata = {
   title: {
-    default: "Akarui Education Pokhara | Akarui Education Consultancy",
-    template: "%s | Akarui Education Pokhara",
+    default: "AKARUI POKHARA ! | AKARUI POKHARA !",
+    template: "%s | AKARUI POKHARA !",
   },
   description:
     "Premium education consultancy in Pokhara guiding students for study abroad with trusted counseling, visa support, and global admissions.",

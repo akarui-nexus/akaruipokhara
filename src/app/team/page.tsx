@@ -35,7 +35,7 @@ export default async function TeamPage({ searchParams }: TeamPageProps) {
           <div className="relative overflow-hidden rounded-[32px] border border-[var(--border)] bg-white shadow-[var(--shadow-soft)]">
             <Image
               src="/assets/gallery/School%20Visit/IMG_6388.JPG"
-              alt="Akarui Education Pokhara team"
+              alt="AKARUI POKHARA ! team"
               width={600}
               height={520}
               className="h-full w-full object-cover"

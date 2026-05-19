@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type MouseEvent } from "react";
 import { ChevronDown, Menu, PhoneCall, X } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -80,13 +80,24 @@ export function Navbar() {
     setOpen(false);
   }
 
+  function handleLogoClick(event: React.MouseEvent<HTMLAnchorElement>) {
+    if (pathname === "/") {
+      event.preventDefault();
+      router.refresh();
+    }
+  }
+
   return (
     <header className="sticky top-3 z-50 mx-auto w-full max-w-6xl px-4">
       <div className="glass-panel flex items-center justify-between gap-3 rounded-2xl px-3 py-2 md:px-5">
-        <Link href={withLanguage("/")} className="flex min-w-0 items-center gap-2">
+        <Link
+          href={withLanguage("/")}
+          onClick={handleLogoClick}
+          className="flex min-w-0 items-center gap-2"
+        >
           <Image
             src="/assets/gallery/LOGO/Akarui%20Logo.webp"
-            alt="Akarui Education Pokhara"
+            alt="AKARUI POKHARA !"
             width={44}
             height={44}
             className="h-9 w-9 rounded-lg object-contain sm:h-10 sm:w-10"

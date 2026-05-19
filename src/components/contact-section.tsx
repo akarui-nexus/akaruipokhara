@@ -79,7 +79,7 @@ export function ContactSection({
           <div className="rounded-[28px] bg-[#eef3f8] p-4 shadow-inner">
             <div className="overflow-hidden rounded-[24px] border border-white/70 bg-white">
               <iframe
-                title="Akarui Education Pokhara office map"
+                title="AKARUI POKHARA ! office map"
                 src={mapUrl}
                 className="h-[320px] w-full border-0 sm:h-[360px]"
                 loading="lazy"

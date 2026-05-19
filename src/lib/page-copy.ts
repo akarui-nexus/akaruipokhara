@@ -168,7 +168,7 @@ export const pageCopy: Record<LanguageCode, PageCopy> = {
     },
     blog: {
       eyebrow: "Blog",
-      title: "Insights and updates from Akarui Education Pokhara.",
+      title: "Insights and updates from AKARUI POKHARA !.",
       description:
         "Study abroad tips, visa guidance, and success stories for Pokhara students.",
       categories: ["All", "Study Abroad", "Visa", "Language", "News"],
@@ -190,8 +190,8 @@ export const pageCopy: Record<LanguageCode, PageCopy> = {
       call: "Call Us Now — Instant Help",
     },
     footer: {
-      title: "Akarui Education Pokhara",
-      subtitle: "Akarui Education Consultancy",
+      title: "AKARUI POKHARA !",
+      subtitle: "AKARUI POKHARA !",
       description:
         "Premium education consultancy in Pokhara supporting students with counseling, documentation, and global admissions.",
       quickLinks: "Quick Links",
@@ -287,7 +287,7 @@ export const pageCopy: Record<LanguageCode, PageCopy> = {
     },
     blog: {
       eyebrow: "ブログ",
-      title: "Akarui Education Pokhara の最新情報。",
+      title: "AKARUI POKHARA ! の最新情報。",
       description:
         "留学のコツ、ビザ情報、ポカラの学生向け成功事例をご紹介します。",
       categories: ["すべて", "留学", "ビザ", "言語", "ニュース"],
@@ -309,8 +309,8 @@ export const pageCopy: Record<LanguageCode, PageCopy> = {
       call: "今すぐ電話 — すぐに対応",
     },
     footer: {
-      title: "Akarui Education Pokhara",
-      subtitle: "Akarui Education Consultancy",
+      title: "AKARUI POKHARA !",
+      subtitle: "AKARUI POKHARA !",
       description:
         "ポカラで学生を支えるプレミアム留学相談サービス。カウンセリング、書類作成、海外進学をサポートします。",
       quickLinks: "クイックリンク",
@@ -406,7 +406,7 @@ export const pageCopy: Record<LanguageCode, PageCopy> = {
     },
     blog: {
       eyebrow: "ब्लग",
-      title: "Akarui Education Pokhara का अपडेटहरू।",
+      title: "AKARUI POKHARA ! का अपडेटहरू।",
       description:
         "विदेश अध्ययन सुझाव, भिसा मार्गदर्शन, र पोखराका विद्यार्थीका सफलताका कथाहरू।",
       categories: ["सबै", "विदेश अध्ययन", "भिसा", "भाषा", "समाचार"],
@@ -428,8 +428,8 @@ export const pageCopy: Record<LanguageCode, PageCopy> = {
       call: "अहिले नै कल गर्नुहोस् — तुरुन्त सहयोग",
     },
     footer: {
-      title: "Akarui Education Pokhara",
-      subtitle: "Akarui Education Consultancy",
+      title: "AKARUI POKHARA !",
+      subtitle: "AKARUI POKHARA !",
       description:
         "पोखरामा आधारित प्रिमियम शैक्षिक परामर्श सेवा, जसले विद्यार्थीलाई परामर्श, कागजात, र भर्ना प्रक्रियामा सहयोग गर्छ।",
       quickLinks: "छिटो लिङ्कहरू",

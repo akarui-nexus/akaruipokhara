@@ -34,7 +34,7 @@ export default async function AboutPage({ searchParams }: AboutPageProps) {
           <div className="relative max-h-[480px] overflow-hidden rounded-[32px] border border-[var(--border)] bg-white shadow-[var(--shadow-soft)]">
             <Image
               src="/assets/gallery/Interview%20Photo/IMG_6414.JPG"
-              alt="Akarui Education Pokhara office"
+              alt="AKARUI POKHARA ! office"
               width={620}
               height={520}
               sizes="(max-width: 1024px) 100vw, 520px"
