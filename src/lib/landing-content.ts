@@ -68,7 +68,7 @@ export const homeContent: Record<LanguageCode, HomeLandingContent> = {
       eyebrow: "Student Stories",
       title: "Real Students, Real Success in Japan",
       description:
-        "AKARUI! Education Consultancy guides students from Pokhara with personalized counseling, visa support, language preparation, and post-arrival care.",
+        "AKARUI POKHARA ! guides students from Pokhara with personalized counseling, visa support, language preparation, and post-arrival care.",
       primaryAction: "Free Counselling",
       secondaryAction: "Explore Gallery",
       trustLine: "Trusted guidance - visa support - global admissions",
@@ -85,7 +85,7 @@ export const homeContent: Record<LanguageCode, HomeLandingContent> = {
       eyebrow: "Why AKARUI!",
       title: "We don't just send you - we prepare you.",
       description:
-        "Akarui combines Japan-first counseling, practical coaching, and dependable support so students are ready before they leave and after they land.",
+        "AKARUI POKHARA ! combines Japan-first counseling, practical coaching, and dependable support so students are ready before they leave and after they land.",
       items: [
         {
           title: "Personalized Counseling",
@@ -160,7 +160,7 @@ export const homeContent: Record<LanguageCode, HomeLandingContent> = {
       eyebrow: "学生ストーリー",
       title: "日本でのリアルな成功、リアルな学生たち",
       description:
-        "AKARUI! Education Consultancy は、ポカラの学生に対して個別カウンセリング、ビザ支援、語学準備、渡航後サポートを提供します。",
+        "AKARUI POKHARA ! Education Consultancy は、ポカラの学生に対して個別カウンセリング、ビザ支援、語学準備、渡航後サポートを提供します。",
       primaryAction: "無料カウンセリング",
       secondaryAction: "ギャラリーを見る",
       trustLine: "信頼できるサポート - ビザ支援 - 海外進学",
@@ -238,7 +238,7 @@ export const homeContent: Record<LanguageCode, HomeLandingContent> = {
       eyebrow: "विद्यार्थी कथाहरू",
       title: "जापानमा वास्तविक विद्यार्थी, वास्तविक सफलता",
       description:
-        "AKARUI! Education Consultancy ले पोखराका विद्यार्थीलाई व्यक्तिगत परामर्श, भिसा सहयोग, भाषा तयारी, र विदेश पुगेपछि पनि समर्थन दिन्छ।",
+        "AKARUI POKHARA ! Education Consultancy ले पोखराका विद्यार्थीलाई व्यक्तिगत परामर्श, भिसा सहयोग, भाषा तयारी, र विदेश पुगेपछि पनि समर्थन दिन्छ।",
       primaryAction: "निःशुल्क परामर्श",
       secondaryAction: "ग्यालेरी हेर्नुहोस्",
       trustLine: "विश्वसनीय मार्गदर्शन - भिसा सहयोग - ग्लोबल एड्मिसन",

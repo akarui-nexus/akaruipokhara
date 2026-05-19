@@ -157,7 +157,7 @@ export const pageCopy: Record<LanguageCode, PageCopy> = {
       eyebrow: "Student Stories",
       title: "Real students, real success in Japan.",
       description:
-        "Hear from students who trusted AKARUI! for their study abroad journey.",
+        "Hear from students who trusted AKARUI POKHARA ! for their study abroad journey.",
     },
     gallery: {
       eyebrow: "Student Gallery",

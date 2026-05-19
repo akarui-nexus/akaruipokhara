@@ -105,7 +105,7 @@ export function Navbar() {
           />
           <div className="min-w-0">
             <p className="truncate text-[11px] font-semibold text-[var(--brand-ink)] sm:text-xs">
-              AKARUI! Education Consultancy
+              AKARUI POKHARA !
             </p>
             <p className="hidden text-[10px] text-[var(--brand-slate)] sm:block">
               Pokhara, Nepal
