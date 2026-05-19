@@ -65,7 +65,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-[var(--border)] py-6 text-center text-xs text-[var(--brand-slate)]">
-        (c) 2026 AKARUI POKHARA !. All rights reserved. <a href="https://www.digistartjp.com/" target="_blank" rel="noopener noreferrer" className="text-[var(--brand-red)] hover:underline">this designed by DIGI スタート！.</a>
+        (c) 2026 AKARUI POKHARA !. All rights reserved. <a href="https://www.digistartjp.com/" target="_blank" rel="noopener noreferrer" className="text-[var(--brand-red)] hover:underline">DESIGNED BY DIGI スタート！</a>
       </div>
     </footer>
   );
