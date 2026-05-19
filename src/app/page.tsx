@@ -37,6 +37,17 @@ export default async function HomePage({ searchParams }: HomePageProps) {
     <div className="flex flex-col gap-20 pb-20">
       <section className="relative overflow-hidden pt-20">
         <div className="absolute inset-0 -z-10 pattern-grid opacity-60" />
+        <div className="absolute inset-0 -z-20 overflow-hidden">
+          <span className="floating-shape left-12 top-16 h-[140px] w-[140px] rounded-full bg-[rgba(227,30,36,0.18)] blur-3xl" />
+          <span className="floating-shape right-16 top-24 h-[120px] w-[120px] rounded-full bg-[rgba(23,49,82,0.16)] blur-3xl" />
+          <span className="floating-shape left-24 bottom-24 h-[180px] w-[180px] rounded-full bg-[rgba(200,159,109,0.14)] blur-3xl" />
+          <span className="floating-shape right-24 bottom-16 h-[100px] w-[100px] rounded-full bg-[rgba(46,125,106,0.14)] blur-3xl" />
+          <span className="floating-japanese left-10 top-16 text-[5.5rem] opacity-36">日本 学校 先生</span>
+          <span className="floating-japanese left-1/2 top-24 text-[6.5rem] opacity-32">学生 友達 時間</span>
+          <span className="floating-japanese right-16 top-40 text-[7rem] opacity-28">山 川 水 木 空 気</span>
+          <span className="floating-japanese left-14 bottom-24 text-[5rem] opacity-26">未来 夢 実</span>
+          <span className="floating-japanese right-8 bottom-16 text-[4.5rem] opacity-28">留学 成功</span>
+        </div>
         <div className="mx-auto grid w-full max-w-6xl gap-12 px-6 pb-12 pt-8 lg:grid-cols-[1.05fr_0.95fr]">
           <Reveal>
             <div className="flex flex-col gap-6">
