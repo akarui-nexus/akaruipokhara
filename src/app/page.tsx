@@ -35,18 +35,19 @@ export default async function HomePage({ searchParams }: HomePageProps) {
 
   return (
     <div className="flex flex-col gap-20 pb-20">
-      <section className="relative overflow-hidden pt-20">
+      <section className="relative overflow-hidden pt-20 pb-24 sm:pb-28">
         <div className="absolute inset-0 -z-10 pattern-grid opacity-60" />
         <div className="absolute inset-0 -z-20 overflow-hidden">
-          <span className="floating-shape left-12 top-16 h-[140px] w-[140px] rounded-full bg-[rgba(227,30,36,0.18)] blur-3xl" />
-          <span className="floating-shape right-16 top-24 h-[120px] w-[120px] rounded-full bg-[rgba(23,49,82,0.16)] blur-3xl" />
-          <span className="floating-shape left-24 bottom-24 h-[180px] w-[180px] rounded-full bg-[rgba(200,159,109,0.14)] blur-3xl" />
-          <span className="floating-shape right-24 bottom-16 h-[100px] w-[100px] rounded-full bg-[rgba(46,125,106,0.14)] blur-3xl" />
-          <span className="floating-japanese left-10 top-16 text-[5.5rem] opacity-36">日本 学校 先生</span>
-          <span className="floating-japanese left-1/2 top-24 text-[6.5rem] opacity-32">学生 友達 時間</span>
-          <span className="floating-japanese right-16 top-40 text-[7rem] opacity-28">山 川 水 木 空 気</span>
-          <span className="floating-japanese left-14 bottom-24 text-[5rem] opacity-26">未来 夢 実</span>
-          <span className="floating-japanese right-8 bottom-16 text-[4.5rem] opacity-28">留学 成功</span>
+          <span className="floating-shape floating-shape-1 left-4 top-10 h-[80px] w-[80px] sm:left-8 sm:top-16 sm:h-[110px] sm:w-[110px] rounded-full bg-[rgba(227,30,36,0.18)] blur-3xl" />
+          <span className="floating-shape floating-shape-2 right-4 top-16 h-[72px] w-[72px] sm:right-12 sm:top-24 sm:h-[100px] sm:w-[100px] rounded-full bg-[rgba(23,49,82,0.16)] blur-3xl" />
+          <span className="floating-shape floating-shape-3 left-8 bottom-16 h-[110px] w-[110px] sm:left-24 sm:bottom-24 sm:h-[160px] sm:w-[160px] rounded-full bg-[rgba(200,159,109,0.14)] blur-3xl" />
+          <span className="floating-shape floating-shape-4 right-8 bottom-8 h-[70px] w-[70px] sm:right-24 sm:bottom-16 sm:h-[90px] sm:w-[90px] rounded-full bg-[rgba(46,125,106,0.14)] blur-3xl" />
+          <span className="floating-japanese floating-japanese-1 left-3 top-12 text-[2.8rem] sm:left-4 sm:top-16 sm:text-[5.5rem] opacity-46">日本 学校 先生</span>
+          <span className="floating-japanese floating-japanese-2 left-1/2 top-24 text-[3.4rem] sm:text-[6.5rem] opacity-38">学生 友達 時間</span>
+          <span className="floating-japanese floating-japanese-3 right-8 top-32 text-[3.8rem] sm:right-16 sm:top-40 sm:text-[7rem] opacity-34">山 川 水 木 空 気</span>
+          <span className="floating-japanese floating-japanese-4 left-8 top-[55%] sm:left-14 sm:top-auto sm:bottom-24 text-[2.4rem] sm:text-[5rem] opacity-32">未来 夢 実</span>
+          <span className="floating-japanese floating-japanese-5 right-8 top-[68%] sm:right-8 sm:top-auto sm:bottom-16 text-[2.2rem] sm:text-[4.5rem] opacity-36">留学 成功</span>
+          <span className="floating-japanese floating-japanese-6 left-[15%] top-[80%] sm:left-[20%] sm:top-[75%] text-[2.4rem] sm:text-[4.2rem] opacity-28">語 学 夢</span>
         </div>
         <div className="mx-auto grid w-full max-w-6xl gap-12 px-6 pb-12 pt-8 lg:grid-cols-[1.05fr_0.95fr]">
           <Reveal>

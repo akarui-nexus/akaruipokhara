@@ -85,16 +85,25 @@ body {
 
 @keyframes float-drift {
   0%, 100% {
-    transform: translateY(0) rotate(0deg);
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+  15% {
+    transform: translate(12px, -14px) rotate(-2deg) scale(1.02);
+  }
+  30% {
+    transform: translate(-10px, -28px) rotate(1deg) scale(1.04);
   }
   50% {
-    transform: translateY(-18px) rotate(2deg);
+    transform: translate(8px, -18px) rotate(-1.5deg) scale(1.03);
+  }
+  70% {
+    transform: translate(-6px, -8px) rotate(2deg) scale(1.01);
   }
 }
 
 .floating-japanese {
   position: absolute;
-  color: rgba(23, 49, 82, 0.28);
+  color: rgba(23, 49, 82, 0.32);
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 900;
   line-height: 0.82;
@@ -105,7 +114,7 @@ body {
   user-select: none;
   mix-blend-mode: screen;
   transform: translateZ(0);
-  animation: float-drift 14s ease-in-out infinite;
+  animation: float-drift 12s ease-in-out infinite;
 }
 
 .floating-shape {
@@ -113,7 +122,36 @@ body {
   pointer-events: none;
   user-select: none;
   transform: translateZ(0);
-  animation: float-shape 18s ease-in-out infinite;
+  animation: float-shape 20s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+  .floating-japanese {
+    opacity: 0.5;
+    text-shadow: 0 0 18px rgba(255, 255, 255, 0.55);
+    letter-spacing: 0.01em;
+  }
+
+  .floating-japanese-1,
+  .floating-japanese-2,
+  .floating-japanese-3,
+  .floating-japanese-4,
+  .floating-japanese-5,
+  .floating-japanese-6 {
+    animation-duration: 10s;
+  }
+
+  .floating-shape {
+    opacity: 0.92;
+    animation-duration: 16s;
+  }
+
+  .floating-shape-1,
+  .floating-shape-2,
+  .floating-shape-3,
+  .floating-shape-4 {
+    animation-duration: 14s;
+  }
 }
 
 @keyframes float-shape {
@@ -121,24 +159,56 @@ body {
     transform: translate(0, 0) scale(1);
   }
 
+  25% {
+    transform: translate(14px, -10px) scale(1.04);
+  }
+
   50% {
-    transform: translate(20px, -24px) scale(1.05);
+    transform: translate(-18px, -24px) scale(1.06);
+  }
+
+  75% {
+    transform: translate(10px, -12px) scale(1.03);
   }
 }
 
-.floating-japanese:nth-child(2) {
+.floating-japanese-1 {
   animation-duration: 14s;
 }
 
-.floating-japanese:nth-child(3) {
+.floating-japanese-2 {
   animation-duration: 16s;
 }
 
-.floating-japanese:nth-child(4) {
-  animation-duration: 10s;
+.floating-japanese-3 {
+  animation-duration: 18s;
 }
 
-.floating-japanese:nth-child(5) {
+.floating-japanese-4 {
+  animation-duration: 13s;
+}
+
+.floating-japanese-5 {
+  animation-duration: 15s;
+}
+
+.floating-japanese-6 {
+  animation-duration: 12s;
+}
+
+.floating-shape-1 {
+  animation-duration: 22s;
+}
+
+.floating-shape-2 {
   animation-duration: 18s;
+}
+
+.floating-shape-3 {
+  animation-duration: 24s;
+}
+
+.floating-shape-4 {
+  animation-duration: 20s;
 }
 
