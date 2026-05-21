@@ -519,7 +519,7 @@ export const timeline = [
 export const contactInfo = {
   address: "Pokhara, Nepal",
   phone: "+977 61-570978",
-  email: "akaruipkreducation@gmail.com",
+  email: "akaruipokhara.users@gmail.com",
   hours: "Sun - Fri: 7:00 AM - 5:00 PM",
 };
 
