@@ -13,9 +13,9 @@ export const metadata: Metadata = {
   description:
     "Premium education consultancy in Pokhara guiding students for study abroad with trusted counseling, visa support, and global admissions.",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
 };
 

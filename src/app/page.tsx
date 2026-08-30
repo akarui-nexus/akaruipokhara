@@ -54,7 +54,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
             <div className="flex flex-col gap-6">
               <div className="flex items-center gap-3">
                 <Image
-                  src="/assets/gallery/LOGO/Akarui%20Logo.webp"
+                  src="/logo_akarui_new.png"
                   alt="AKARUI POKHARA !"
                   width={44}
                   height={44}

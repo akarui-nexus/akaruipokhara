@@ -21,7 +21,7 @@ export function Footer() {
         <div className="space-y-4">
           <div className="flex items-center gap-3">
             <Image
-              src="/assets/gallery/LOGO/Akarui%20Logo.webp"
+              src="/logo_akarui_new.png"
               alt="AKARUI POKHARA !"
               width={54}
               height={54}

@@ -96,7 +96,7 @@ export function Navbar() {
           className="flex min-w-0 items-center gap-2"
         >
           <Image
-            src="/assets/gallery/LOGO/Akarui%20Logo.webp"
+            src="/logo_akarui_new.png"
             alt="AKARUI POKHARA !"
             width={44}
             height={44}
